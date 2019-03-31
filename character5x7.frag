@@ -31,8 +31,6 @@ precision mediump float;
 #endif
 
 uniform vec2 u_resolution;
-uniform vec2 u_mouse;
-uniform float u_time;
 
 vec3 redCircle(in vec3 _color, in vec2 _st, in float _radius, in float x, in float y ){
     vec2 dist = _st-vec2(x,1.-y);
